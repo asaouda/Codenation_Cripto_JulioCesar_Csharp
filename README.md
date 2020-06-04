@@ -20,7 +20,8 @@ Regras:
 * Os números e espaços não serão cifrados.
 * Caso seja fornecido uma mensagem vazia para cifrar deve retornar um valor vazio
 * Caso seja fornecida um valor para cifrar ou decifrar que contenha caracteres especiais ou letras acentuadas como ç, á, é, etc. devem disparar uma exceção do tipo `ArgumentOutOfRangeException`
-* Caso seja fornecido um valor nulo para cifrar ou decifrar deve disparar uma exceção do tipo `ArgumentNullException`
+* Caso seja fornecido um valor nulo para cifrar ou decifrar deve disparar uma
+  exceção do tipo `ArgumentNullException`.
 
 A classe deve implementar as interfaces `ICrypt` e `IDecrypt` da seguinte forma:
 
