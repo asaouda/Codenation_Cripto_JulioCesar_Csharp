@@ -1,6 +1,6 @@
 namespace Codenation.Challenge
 {
-    public interface IDecrypt 
+	public interface IDecrypt 
 	{
 		string Decrypt(string cryptedMessage);
 	}
