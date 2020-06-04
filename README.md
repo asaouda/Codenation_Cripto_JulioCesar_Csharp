@@ -37,7 +37,7 @@ Neste desafio você aprenderá:
 * Controle de fluxo
 
 ## Requisitos
-​
+
 Para este desafio você precisará :
 
 - .NET Core 2.0+
