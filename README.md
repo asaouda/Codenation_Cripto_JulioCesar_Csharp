@@ -1,5 +1,7 @@
 # Criptografia de Júlio César
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0fa6178880e94c1994b60e2cd942d5ed)](https://app.codacy.com/manual/asaouda/Cripto_JulioCesar_Csharp?utm_source=github.com&utm_medium=referral&utm_content=asaouda/Cripto_JulioCesar_Csharp&utm_campaign=Badge_Grade_Dashboard)
+
 Segundo o Wikipedia, criptografia ou criptologia (em grego: kryptós, “escondido”, e gráphein, “escrita”) é o estudo e prática de princípios e técnicas para comunicação segura na presença de terceiros, chamados “adversários”. Mais geralmente, a criptografia refere-se à construção e análise de protocolos que impedem terceiros, ou o público, de lerem mensagens privadas. Muitos aspectos em segurança da informação, como confidencialidade, integridade de dados, autenticação e não-repúdio são centrais à criptografia moderna. Aplicações de criptografia incluem comércio eletrônico, cartões de pagamento baseados em chip, moedas digitais, senhas de computadores e comunicações militares. 
 Das criptografias mais curiosas na história da humanidade podemos citar a criptografia utilizada pelo grande líder militar romano Júlio César para comunicar-se com os seus generais. Essa criptografia se baseava na substituição das letra do alfabeto avançando três casas. 
 
