@@ -1,0 +1,6 @@
+version: 1.0.{build}
+configuration: Debug
+platform: Any CPU
+build:
+  project: Source/Source.csproj
+  verbosity: minimal
