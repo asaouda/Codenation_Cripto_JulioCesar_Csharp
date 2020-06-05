@@ -6,3 +6,9 @@ before_build:
 build:
   project: Source/Source.csproj
   verbosity: normal
+before_test:
+- cmd: dir
+test:
+  assemblies:
+    only:
+    - '**\*.Source.Test.dll'
