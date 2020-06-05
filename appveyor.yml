@@ -2,20 +2,16 @@ version: 1.0.{build}
 configuration: Debug
 platform: Any CPU
 before_build:
-- cmd: >-
-    nuget restore ./Challenge.sln
-    
+- cmd: nuget restore ./Challenge.sln
 build:
   project: Source/Source.csproj
   verbosity: normal
-
-before_test:
+test_script:
 - cmd: >-
-    cd Source.Test
-    dotnet test
     dir
-    
-test:
-  assemblies:
-    only:
-    - '**\*.Source.Test.dll'
+
+    cd Source.Test
+
+    dir
+
+    dotnet test
