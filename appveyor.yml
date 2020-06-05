@@ -10,7 +10,7 @@ before_test:
 - cmd: >-
     dir
 
-    cd Source.Test/bin/Debug/netcoreapp2.2
+    cd Source.Test
 
     dir
 test:
