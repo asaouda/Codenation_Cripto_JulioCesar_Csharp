@@ -7,8 +7,15 @@ build:
   project: Source/Source.csproj
   verbosity: normal
 before_test:
-- cmd: dir
+- cmd: >-
+    dir
+
+    cd Source.Test/bin/Debug/netcoreapp2.2
+
+    dir
 test:
   assemblies:
     only:
     - '**\*.Source.Test.dll'
+after_test:
+- cmd: xunit.console Source.Test.dll /appveyor
