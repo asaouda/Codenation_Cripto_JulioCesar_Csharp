@@ -1,17 +1,21 @@
 version: 1.0.{build}
-dotnet_csproj:
-  patch: true
-  file: '**\*.csproj'
-  version: '{version}'
-  package_version: '{version}'
-  assembly_version: '{version}'
-  file_version: '{version}'
-  informational_version: '{version}'
-  
+configuration: Debug
+platform: Any CPU
+before_build:
+- cmd: >-
+    nuget restore ./Challenge.sln
+    
+build:
+  project: Source/Source.csproj
+  verbosity: normal
+
 before_test:
 - cmd: >-
-    dir
-
     cd Source.Test
-
+    dotnet test
     dir
+    
+test:
+  assemblies:
+    only:
+    - '**\*.Source.Test.dll'
