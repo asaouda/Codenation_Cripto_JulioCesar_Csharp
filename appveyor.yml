@@ -7,7 +7,6 @@ build:
   project: Source/Source.csproj
   verbosity: normal
 test_script:
-- cmd: cd Source.Test
 - cmd: dotnet test
     
     
